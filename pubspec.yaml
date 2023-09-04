@@ -1,0 +1,20 @@
+name: bloc_basis
+description: Flutter BLoC Basis.
+version: 1.0.0+1
+homepage:
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter:
+
+dependencies:
+  equatable:
+  flutter:
+    sdk: flutter
+  rxdart:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
