@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-abstract class BlocState<Bloc> extends Equatable {
+sealed class BlocState<Bloc> extends Equatable {
   @override
   List<Object> get props => [];
 }
-class EmptyState<Bloc> extends BlocState<Bloc> {}
+sealed class EmptyState<Bloc> extends BlocState<Bloc> {}
