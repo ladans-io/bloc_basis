@@ -1,7 +1,8 @@
 import 'package:equatable/equatable.dart';
 
-sealed class BlocEvent<Bloc> extends Equatable {
+base class BlocEvent<Bloc> extends Equatable {
   @override
   List<Object> get props => [];
 }
-sealed class EmptyEvent<Bloc> extends BlocEvent<Bloc> {}
+final class InitialEvent<Bloc> extends BlocEvent<Bloc> {}
+final class CloseEvent<Bloc> extends BlocEvent<Bloc> {}
